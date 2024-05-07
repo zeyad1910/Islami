@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">إسلامي</string>
+    <string name="quran">القرآن</string>
+    <string name="hadeth">الأحاديث</string>
+    <string name="tasbeh">التسبيح</string>
+    <string name="radio">راديو</string>
+    <string name="sura_name">اسم السورة</string>
+    <string name="verse_number">عدد الآيات</string>
+    <string name="number_of_dhikr">عدد التسبيحات</string>
+    <string name="number_of_dhikr_value">0</string>
+    <array name="dhikr_list">
+        <item>سُـبْحانَ اللهِ</item>
+        <item>الحَمْـدُ لله</item>
+        <item>لا إلهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ</item>
+        <item>أَسْـتَغْفِرُ الله</item>
+        <item>اللهُ أكْـبَر</item>
+    </array>
+</resources>

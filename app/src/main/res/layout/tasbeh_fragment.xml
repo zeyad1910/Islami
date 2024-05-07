@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/main_background">
+
+    <ImageView
+        android:id="@+id/iv_head_of_seb7a"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/head_of_seb7a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".15"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guide_line_seb7a"
+        app:layout_constraintWidth_percent=".3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line_seb7a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".15" />
+    <ImageView
+        android:id="@+id/iv_body_of_seb7a"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/body_of_seb7a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_head_of_seb7a"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintHeight_percent=".3"
+        android:layout_marginTop="-28dp"
+        />
+    <TextView
+        android:id="@+id/tv_number_of_tasbeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iv_body_of_seb7a"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/fragment_font_color"
+        android:text="@string/number_of_dhikr"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:id="@+id/tv_number_of_dhikr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_number_of_tasbeh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/fragment_font_color"
+        android:text="@string/number_of_dhikr_value"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/number_of_dhikr_bg"
+        android:padding="18dp"
+        />
+    <TextView
+        android:id="@+id/tv_dhikr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_number_of_dhikr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/dhikr_color"
+        android:text="سُـبْحانَ اللهِ"
+        android:textSize="24sp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/tasbeh_bg"
+        android:padding="12dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

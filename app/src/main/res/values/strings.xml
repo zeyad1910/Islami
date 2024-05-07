@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Islami</string>
+    <string name="quran">Quran</string>
+    <string name="hadeth">Hadeth</string>
+    <string name="tasbeh">Tasbeh</string>
+    <string name="radio">Radio</string>
+    <string name="sura_name">Sura Name</string>
+    <string name="verse_number">Verse Number</string>
+    <string name="number_of_dhikr">Number of Dhikr</string>
+    <string name="number_of_dhikr_value">0</string>
+    <array name="dhikr_list">
+        <item>سُـبْحانَ اللهِ</item>
+        <item>الحَمْـدُ لله</item>
+        <item>لا إلهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ</item>
+        <item>أَسْـتَغْفِرُ الله</item>
+        <item>اللهُ أكْـبَر</item>
+    </array>
+</resources>

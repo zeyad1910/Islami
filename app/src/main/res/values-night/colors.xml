@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">@color/yellow</color>
+    <color name="activity_font_color">@color/yellow</color>
+    <color name="fragment_font_color">@color/white</color>
+    <color name="secondary_color">#141A2E</color>
+    <color name="islami_title_color">@color/white</color>
+    <color name="card_view_color">@color/secondary_color</color>
+    <color name="dhikr_color">@color/black</color>
+</resources>
